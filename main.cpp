@@ -12,7 +12,7 @@ int main(){
 		std::cin >> N;
 	}while(N<=0);
 	
-	//Occupying new space for out array.
+	//Occupying new space for out array. C++ way. Opposit from malloc in C.
 	A = new int[N];		
 	
 	//Insert Array Elements.
